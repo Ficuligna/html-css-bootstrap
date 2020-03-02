@@ -1,0 +1,204 @@
+
+
+nav{
+  background-color: #2c3e50!important;
+  color: white;
+  text-transform: uppercase;
+  padding: 24px 16px;
+}
+.navlinks{
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+}
+.navlinks:hover{
+  color:#1abc9c;
+  text-decoration: none;
+}
+.navlinks:focus{
+  color:white;
+  text-decoration: none;
+
+}
+
+nav .col-md-4 .col-md-4{
+  text-align: center;
+
+}
+.title a{
+  font-size: 24px;
+  font-weight: 700;
+  color: white;
+}
+.title a:hover, .title a:focus{
+  text-decoration: none;
+}
+/* **********Jumbo********* */
+
+.jumbotron{
+  background-color: #1abc9c;
+  margin-top: 83px;
+}
+.immjumbo{
+  margin: auto;
+  max-width: 240px;
+}
+.title, .titlini{
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+}
+.title h1{
+  font-weight: 600;
+}
+.separatore{
+  margin: 15px ;
+}
+.separatore:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.separatore>*{
+  float: left;
+}
+.separatore *{
+  padding: 0;
+  margin: 0;
+}
+.stellina{
+  /* width: 30%; */
+  text-align: center;
+}
+.separatore .stellina span{
+  color: white;
+  width: 100%;
+  font-size: 20px;
+}
+.righina{
+  margin: 10px 2.5%;
+  width: 100%;
+  border: white 2.5px solid;
+}
+@media screen and (min-width:992px){
+  .separatore .stellina span{
+    color: white;
+    width: 100%;
+    font-size: 50px;
+  }
+  .righina{
+    margin: 25px 2.5%;
+    width: 100%;
+    border: white 2.5px solid;
+  }
+}
+
+/* **********fistwhitesect****** */
+section:nth-child(2n+1) .title{
+  color: rgba(0,0,0,0.75);
+  margin-top: 50px;
+}
+@media screen and (min-width: 768px){
+  section .title h1{
+    font-size: 45px;
+  }
+}
+section:nth-child(2n+1) .separatore span{
+  color: rgba(0,0,0,0.75);
+}
+section:nth-child(2n+1) .separatore .righina{
+  border: 2.5px solid rgba(0,0,0,0.75);
+}
+
+section:nth-child(1) img{
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+section:nth-child(1){
+  padding-bottom: 50px;
+}
+
+/* **********secondsect********* */
+section:nth-child(2){
+  background-color: #1abc9c;
+}
+section:nth-child(2) p{
+  margin: 20px 0;
+  color: white;
+  font-size: 20px;
+}
+.button{
+  margin: 20px 0;
+  text-align: center;
+}
+section:nth-child(2) button{
+  border: 2px white solid;
+  border-radius: 10px;
+  padding: 15px 20px;
+  background-color: #1abc9c;
+  font-size: 20px;
+  color: white;
+}
+/* ********** Contact**********/
+/* DEBUG:  */
+.contatti input{
+  width: 100%;
+  line-height: 2;
+  border: 0;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  font-size: 20px;
+  height: 100px;
+}
+.contatti:nth-child(4) input{
+  border: 0;
+  margin-bottom: 150px;
+}
+.contatti input:focus{
+  outline: 0px;
+}
+
+.sendform button{
+  font-size: 20px;
+  background-color: #1abc9c;
+  padding: 15px 25px;
+  border-radius: 10px;
+  border: white 1px solid;
+  color: white;
+}
+.sendform{
+  border-top: 1px solid rgba(0,0,0,0.1);
+  padding-top: 10px;
+}
+/* *************foooooooottteter*********** */
+footer{
+  background-color: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 50px 0 0 0;
+  margin-top: 100px;
+}
+footer a{
+  padding: 10px 15px;
+  border-radius: 999px;
+  border: 2px solid white;
+  color: white;
+  font-size: 24px;
+}
+footer .col-md-3{
+  margin: 0;
+  padding: 0;
+}
+footer h4{
+  font-size: 25px;
+  padding: 20px;
+  font-weight: 600;
+}
+footer p{
+  font-size: 18px;
+}
+.copy{
+  margin-top: 50px;
+  padding: 24px;
+  background-color: #1a252f;
+}
