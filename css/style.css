@@ -1,4 +1,6 @@
-
+body{
+  position: relative;
+}
 
 nav{
   background-color: #2c3e50!important;
@@ -7,9 +9,9 @@ nav{
   padding: 24px 16px;
 }
 .navlinks{
-  font-size: 18px;
   font-weight: 600;
   color: white;
+  padding: 20px 15px ;
 }
 .navlinks:hover{
   color:#1abc9c;
@@ -113,12 +115,42 @@ section:nth-child(2n+1) .separatore .righina{
 section:nth-child(1) img{
   width: 100%;
   border-radius: 10px;
+}
+.contportfol{
+  position: relative;
+}
+section:nth-child(1) .col-md-4 .contportfol{
   margin-bottom: 30px;
 }
+
 section:nth-child(1){
   padding-bottom: 50px;
 }
+.covergreen{
+  position: absolute;
+  top: 0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(10, 132, 16, 0.8);
+  transition: 1s;
+  border-radius: 10px;
+  opacity: 0;
+}
+.covergreen span{
+  font-size: 120px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 
+}
+section:nth-child(1) .col-md-4:hover .covergreen{
+  opacity: 1;
+  transition: 1s;
+  color: white;
+  cursor: pointer;
+}
 /* **********secondsect********* */
 section:nth-child(2){
   background-color: #1abc9c;
@@ -139,6 +171,11 @@ section:nth-child(2) button{
   background-color: #1abc9c;
   font-size: 20px;
   color: white;
+  transition: 1s;
+}
+section:nth-child(2) button:hover{
+  background-color: white;
+  color: black;
 }
 /* ********** Contact**********/
 /* DEBUG:  */
@@ -165,6 +202,10 @@ section:nth-child(2) button{
   border-radius: 10px;
   border: white 1px solid;
   color: white;
+  transition: 1s;
+}
+.sendform button:hover{
+background-color: rgb(29, 129, 70);
 }
 .sendform{
   border-top: 1px solid rgba(0,0,0,0.1);
